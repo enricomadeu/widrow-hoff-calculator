@@ -125,7 +125,7 @@ export function App() {
 											<TextField
 												type="number"
 												inputProps={{ min: 0, step: 10 }}
-												label="Épocas"
+												label="Interações"
 												value={interacoes}
 												onChange={(event) => setInteracoes(+event.target.value)}
 												fullWidth
@@ -182,7 +182,7 @@ export function App() {
 											);
 										})}
 										<Grid item xs>
-											Esperado
+											Meta
 										</Grid>
 										<Grid item xs={1}></Grid>
 									</Grid>

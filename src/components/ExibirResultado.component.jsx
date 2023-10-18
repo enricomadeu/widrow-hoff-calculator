@@ -53,7 +53,7 @@ export function ExibirResultado({ resultado }) {
 									<h3>Entradas: {r.entrada.join(", ")}</h3>
 								</Grid>
 								<Grid item xs={6}>
-									<h3>Esperado: {r.meta}</h3>
+									<h3>Meta: {r.meta}</h3>
 								</Grid>
 								<Grid item xs={6}>
 									<h3>Saída: {r.saida}</h3>
