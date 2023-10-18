@@ -28,7 +28,7 @@ export function ExibirResultado({ resultado }) {
 			<Grid container justifyContent="space-between">
 				<Grid item>
 					<h2>
-						Iteração {currentIteracao + 1} - Erro total:{" "}
+						Interação {currentIteracao + 1} - Erro total:{" "}
 						{resultado[currentIteracao].erroTotal}
 					</h2>
 				</Grid>
